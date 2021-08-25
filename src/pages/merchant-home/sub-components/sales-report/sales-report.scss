@@ -1,0 +1,58 @@
+
+  #transactionGraph {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 8px;
+    position: relative;
+    left: 8px;
+    margin-right: 8px;
+    top: -8px;
+   
+  }
+  #transactionTable {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 8px;
+    position: relative;
+    left: 8px;
+    margin-right: 8px;
+    top: -8px;
+  }
+#chart {
+    height: 300px;
+}
+
+.tooltip-header {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.tooltip-body {
+    width: 170px;
+}
+
+.tooltip-body .series-name {
+    font-weight: normal;
+    opacity: 0.6;
+    display: inline-block;
+    line-height: 1.5;
+    padding-right: 10px;
+    width: 126px;
+}
+
+.tooltip-body .value-text {
+    display: inline-block;
+    line-height: 1.5;
+    width: 30px;
+}

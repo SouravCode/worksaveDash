@@ -1,0 +1,115 @@
+@import "../../../../themes/generated/variables.base.scss";
+
+.offerAlign{
+position: relative;
+left:-3.0rem;
+}
+.offersSection{
+  font-family:lato;
+  display:flex;
+
+  .offerTable{
+    flex:2;
+  }
+  .offerStatus{
+    flex:1;
+    margin-left:8px;
+
+    .currentStatus,.alwaysStatus{
+      padding:16px;
+      //border:1px solid #e5e5fa;
+    height:38vh;
+    margin-bottom:8px;
+    box-shadow: 0 5px 5px 0 #9aa0b90d, 0 5px 30px 0 #a6adc938;
+      .title{
+        margin:0 8px;
+        font-size:19px !important;
+      }
+      .offerborder,.alwaysborder{
+
+        height:160px;
+        width:160px;
+        border:4px dashed $primary;
+        border-radius:50%;
+        padding:1rem;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        }
+        .value{
+
+          color:$primary;
+          font-size: 24px;
+          margin:0;
+          
+        }
+  }
+  .alwaysStatus{
+    .alwaysborder{
+      border-color:$secondary !important;
+    }
+    .value{
+
+      color:$secondary;
+      font-size: 19px;
+
+    }
+  }
+  }
+  .flex{
+    display:flex;
+  }
+ 
+}
+.offer-dates{
+  display: flex;
+  justify-content: space-between;
+  border-left: 3px solid #299b75;
+  padding:0 12px;
+  background-color: #fff;
+  p{
+    font-size:12px !important;
+    white-space:nowrap;
+
+    .current-offer-date{
+      font-size:16px !important;
+      color:#299b75;
+      margin-left:0.3rem;
+      margin-right:0.4rem;
+    }
+    .always-offer-date{
+      font-size:16px !important;
+      color:$primary;
+      margin-left:0.3rem;
+      margin-right:0.4rem;
+    }
+    .last-offer-date{
+      font-size:16px !important;
+      color:#2B8BB6;
+      margin-left:0.3rem;
+      margin-right:0.4rem;
+    }
+  }
+}
+.transaction{
+  margin-right:0px !important;
+}
+.always-offer {
+  height: 9.3rem !important;
+}
+.offer-label{
+  font-size:19px !important;
+  color:#000 !important;
+}
+// .offer-val{
+//   //font-size: 42px !important;
+// }
+.offer-status{
+  background-color:#5243aab4;
+  width:5rem;
+  color:#fff;
+  padding:3px !important;
+  position: relative;
+left:-0.5rem;
+}

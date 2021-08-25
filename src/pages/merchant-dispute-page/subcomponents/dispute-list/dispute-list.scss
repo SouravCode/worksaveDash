@@ -1,0 +1,130 @@
+@import "../../../../themes/generated/variables.base.scss";
+/* TransactionPage */
+.disputeAlign{
+  position: relative;
+  left:-1.5rem;
+}
+.total-disputes-container,.closed-disputes-container,.open-disputes-container{
+  border-radius:0 !important;
+  height:9.0rem !important;
+
+}
+.total-disputes-container{
+  border-left:4px solid $primary;
+}
+.closed-disputes-container{ 
+  border-left:4px solid $secondary 
+}
+.open-disputes-container{ 
+  border-left:3px solid $danger;
+}
+
+
+
+.open-dispute-val{
+  color:$danger !important;
+  font-size:24px !important;
+  margin-bottom:8px;
+}
+
+.closed-dispute-val{
+  color:$secondary !important;
+  font-size:24px !important ;
+  margin-bottom:8px;
+}
+.total-dispute-val{
+  font-size:24px !important;
+  margin-bottom:8px;
+}
+
+#transactionTable {
+  background-color: $white;
+}
+.content-block{
+  font-size:30px;
+  margin:20px 0;
+}
+.PopUp{
+  overflow-y:scroll;
+}
+.filter {
+  outline: none;
+  font-size: 11px;
+  padding: 4px;
+  margin-right: 24px;
+  margin-top: 4px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+.totalDisputes,
+.closedDisputes,
+.openDisputes {
+  flex: 1;
+  margin: 16px 24px 16px 0px;
+}
+.lable p {
+  margin: 0;
+  font-size: 15px;
+}
+.lable + .val {
+  margin: 0;
+  font-size: 32px;
+  padding-left: 4px;
+}
+.dispute {
+  background-color: $white;
+  padding: 20px 12px;
+  margin-right: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.totalDisputes .dispute {
+  border-left: 3px solid $info;
+}
+.closedDisputes .dispute {
+  border-left: 3px solid $secondary;
+}
+.openDisputes .dispute {
+  border-left: 3px solid $primary;
+}
+
+.val {
+  padding-right: 25%;
+}
+.totalDisputes .val {
+  color: $info;
+}
+.closedDisputes .val {
+  color: $secondary;
+}
+.openDisputes .val {
+  color: $primary;
+}
+
+.sales,
+.cashbacks {
+  background-color: $white;
+  padding: 8px;
+  border-radius: 4px;
+  flex: 1;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+.sales .val,
+.cashbacks .val {
+  font-size: 24px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+}
+.msg {
+  color: $info;
+  padding-right: 4px;
+}
+.ellipse{
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.dispute-count{
+  font-size: 24px !important;
+}
+

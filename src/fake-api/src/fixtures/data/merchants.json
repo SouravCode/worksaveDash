@@ -1,0 +1,363 @@
+[
+  {
+    "id": 7,
+    "name": "GYM",
+    "description": "welcome",
+    "locationid": 33,
+    "createdby": 12,
+    "modifiedby": 12,
+    "remote_merchant_id": "12234",
+    "typeid": null,
+    "merchantaddress": [
+      {
+        "latitude": "78.22",
+        "longitude": "78.22",
+        "street": "garden",
+        "area": "bandlaguda",
+        "pincode": "500225",
+        "state": "telangana",
+        "country": "india",
+        "remote_location_id": "09789ab9-58ce-42a1-83a9-1d3d220f58be"
+      }
+    ],
+    "merchantoffer": [
+      {
+        "percentage": 20,
+        "offerstartdate": null,
+        "offerenddate": null,
+        "customerdiscount": 100,
+        "discountid": null
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Hotels Fire",
+    "description": "Restaurant",
+    "locationid": 0,
+    "createdby": 12,
+    "modifiedby": 12,
+    "remote_merchant_id": "12345678",
+    "typeid": 2,
+    "merchantaddress": [
+      {
+        "latitude": "78.22",
+        "longitude": "78.22",
+        "street": "Same street",
+        "area": "London",
+        "pincode": "KLM 25",
+        "state": "LONDON",
+        "country": "UK",
+        "remote_location_id": null
+      }
+    ],
+    "merchantoffer": [
+      {
+        "percentage": 10,
+        "offerstartdate": null,
+        "offerenddate": null,
+        "customerdiscount": 11,
+        "discountid": 1
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Green red",
+    "description": "Resturants",
+    "locationid": null,
+    "createdby": 12,
+    "modifiedby": 12,
+    "remote_merchant_id": null,
+    "typeid": null,
+    "merchantaddress": [
+      {
+        "latitude": "78.22",
+        "longitude": "78.22",
+        "street": "garden",
+        "area": "bandlaguda",
+        "pincode": "500225",
+        "state": "telangana",
+        "country": "india",
+        "remote_location_id": null
+      }
+    ],
+    "merchantoffer": [
+      {
+        "percentage": 10,
+        "offerstartdate": null,
+        "offerenddate": null,
+        "customerdiscount": 11,
+        "discountid": 1
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Green red hotel",
+    "description": "Resturants",
+    "locationid": null,
+    "createdby": 12,
+    "modifiedby": 12,
+    "remote_merchant_id": null,
+    "typeid": null,
+    "merchantaddress": [
+      {
+        "latitude": "78.22",
+        "longitude": "78.22",
+        "street": "garden",
+        "area": "bandlaguda",
+        "pincode": "500225",
+        "state": "telangana",
+        "country": "india",
+        "remote_location_id": null
+      }
+    ],
+    "merchantoffer": [
+      {
+        "percentage": 10,
+        "offerstartdate": null,
+        "offerenddate": null,
+        "customerdiscount": 11,
+        "discountid": 1
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Green red Tech",
+    "description": "Resturants",
+    "locationid": null,
+    "createdby": 12,
+    "modifiedby": 12,
+    "remote_merchant_id": null,
+    "typeid": null,
+    "merchantaddress": [
+      {
+        "latitude": "78.22",
+        "longitude": "78.22",
+        "street": "garden",
+        "area": "bandlaguda",
+        "pincode": "500225",
+        "state": "telangana",
+        "country": "india",
+        "remote_location_id": null
+      }
+    ],
+    "merchantoffer": [
+      {
+        "percentage": 10,
+        "offerstartdate": null,
+        "offerenddate": null,
+        "customerdiscount": 11,
+        "discountid": 1
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Red Tech",
+    "description": "Resturants",
+    "locationid": null,
+    "createdby": 12,
+    "modifiedby": 12,
+    "remote_merchant_id": null,
+    "typeid": null,
+    "merchantaddress": [
+      {
+        "latitude": "78.22",
+        "longitude": "78.22",
+        "street": "garden",
+        "area": "bandlaguda",
+        "pincode": "500225",
+        "state": "telangana",
+        "country": "india",
+        "remote_location_id": null
+      }
+    ],
+    "merchantoffer": [
+      {
+        "percentage": 10,
+        "offerstartdate": null,
+        "offerenddate": null,
+        "customerdiscount": 11,
+        "discountid": 1
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Red Tech hotel",
+    "description": "Resturants",
+    "locationid": null,
+    "createdby": 12,
+    "modifiedby": 12,
+    "remote_merchant_id": null,
+    "typeid": null,
+    "merchantaddress": [
+      {
+        "latitude": "78.22",
+        "longitude": "78.22",
+        "street": "garden",
+        "area": "bandlaguda",
+        "pincode": "500225",
+        "state": "telangana",
+        "country": "india",
+        "remote_location_id": null
+      }
+    ],
+    "merchantoffer": [
+      {
+        "percentage": 10,
+        "offerstartdate": null,
+        "offerenddate": null,
+        "customerdiscount": 11,
+        "discountid": 1
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Green Tech hotel",
+    "description": "Resturants",
+    "locationid": null,
+    "createdby": 12,
+    "modifiedby": 12,
+    "remote_merchant_id": null,
+    "typeid": null,
+    "merchantaddress": [
+      {
+        "latitude": "78.22",
+        "longitude": "78.22",
+        "street": "garden",
+        "area": "bandlaguda",
+        "pincode": "500225",
+        "state": "telangana",
+        "country": "india",
+        "remote_location_id": null
+      }
+    ],
+    "merchantoffer": [
+      {
+        "percentage": 10,
+        "offerstartdate": null,
+        "offerenddate": null,
+        "customerdiscount": 11,
+        "discountid": 1
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Green swap hotels",
+    "description": "Resturants",
+    "locationid": null,
+    "createdby": 12,
+    "modifiedby": 12,
+    "remote_merchant_id": null,
+    "typeid": null,
+    "merchantaddress": [
+      {
+        "latitude": "78.22",
+        "longitude": "78.22",
+        "street": "garden",
+        "area": "bandlaguda",
+        "pincode": "5020002",
+        "state": "telangana",
+        "country": "india",
+        "remote_location_id": null
+      }
+    ],
+    "merchantoffer": [
+      {
+        "percentage": 10,
+        "offerstartdate": null,
+        "offerenddate": null,
+        "customerdiscount": 11,
+        "discountid": 1
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": null,
+    "description": null,
+    "locationid": null,
+    "createdby": null,
+    "modifiedby": null,
+    "remote_merchant_id": null,
+    "typeid": null,
+    "merchantaddress": [
+      {
+        "latitude": null,
+        "longitude": null,
+        "street": null,
+        "area": null,
+        "pincode": "88555",
+        "state": "tel",
+        "country": "india",
+        "remote_location_id": null
+      }
+    ],
+    "merchantoffer": [
+      {
+        "percentage": null,
+        "offerstartdate": null,
+        "offerenddate": null,
+        "customerdiscount": null,
+        "discountid": null
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Raw hotels",
+    "description": "Resturants",
+    "locationid": null,
+    "createdby": 12,
+    "modifiedby": 12,
+    "remote_merchant_id": "cf719233-0fcd-4d4f-8ca0-9f7422863205",
+    "typeid": null,
+    "merchantaddress": [
+      {
+        "latitude": "78.22",
+        "longitude": "78.22",
+        "street": "garden",
+        "area": "bandlaguda",
+        "pincode": "500225",
+        "state": "telangana",
+        "country": "india",
+        "remote_location_id": null
+      },
+      {
+        "latitude": "78.22",
+        "longitude": "78.22",
+        "street": "Same street",
+        "area": "London",
+        "pincode": "KLM 25",
+        "state": "LONDON",
+        "country": "UK",
+        "remote_location_id": "0"
+      },
+      {
+        "latitude": "78.22",
+        "longitude": "78.22",
+        "street": "Same same",
+        "area": "London",
+        "pincode": "KLM 25",
+        "state": "LONDON",
+        "country": "UK",
+        "remote_location_id": "0"
+      }
+    ],
+    "merchantoffer": [
+      {
+        "percentage": 10,
+        "offerstartdate": null,
+        "offerenddate": null,
+        "customerdiscount": 11,
+        "discountid": 1
+      }
+    ]
+  }
+]

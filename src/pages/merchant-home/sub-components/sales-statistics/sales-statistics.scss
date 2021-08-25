@@ -1,0 +1,80 @@
+#salesReport {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 8px 0 10px  0;
+    border-radius: 8px;
+   // margin-left: -8px;
+    margin-right: -16px;
+    
+  }
+  /*SALES REPORT*/
+  .sales,
+  .cashbacks,
+  .transactions,
+  .invoices {
+    background-color: #ffffff;
+    flex: 1;
+    border-radius: 8px;
+    margin: 0 8px;
+    padding: 8px;
+  }
+  .invoices{
+    height:7.5rem;
+    margin-right:0px;
+  
+  }
+ 
+  .salesLable,
+  .offerLable,
+  .cashbackLable,
+  .transactionLable {
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .salesVal,
+  .offerVal,
+  .cashbackVal {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .transactionVal {
+    font-weight: 600;
+    margin: auto;
+    font-size: 24px;
+    color: #3f51b5;
+    //padding-left: 24px;
+  }
+  .transactions {
+    flex: 2;
+  }
+  .trans + .divider {
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #00000052;
+  }
+  .newCustomers,
+  .existingCustomers {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  }
+  .existingCustomers .lable,
+  .newCustomers .lable {
+    font-size: 13px;
+    margin: auto 0;
+  }
+  .existingCustomers .val,
+  .newCustomers .val {
+    font-size: 32px;
+    font-weight: 600;
+    margin: auto 0;
+    color: #3f51b5;
+  }
+  .transactions {
+    margin-left:0!important;
+   
+  }

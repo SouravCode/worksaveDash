@@ -1,0 +1,35 @@
+ .gridCell{
+  transition: background-color 0.3s ease 0s;
+  border-bottom: 1px solid rgb(235, 236, 240);
+}
+.transAlign{
+  position: relative;
+  left:-2rem;
+}
+
+#trasactionTable {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 8px;
+  position: relative;
+}
+
+#trasactionTable table thead tr th p {
+  font-size: 11px;
+}
+
+.border {
+  outline: thin solid #80808048;
+  outline-style: auto;
+}
+.ellipse{
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+table p {
+  text-align: center;
+}
