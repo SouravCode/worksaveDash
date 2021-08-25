@@ -1,0 +1,122 @@
+#InvoiceSection {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    //background-color: #ffffff;
+    padding-top: 8px;
+    border-radius: 8px;
+    position: relative;
+  }
+  .due-amount,.due-date{
+    font-size:12px !important;
+    margin:auto  !important;
+    white-space: nowrap;
+    color:#000 !important;
+    color: #ff00008e !important;
+    margin-left:8px !important;
+  }
+  .invoice-date{
+    color: #ff00008e;
+    font-size:17px;
+    white-space: nowrap;
+    position: relative;
+    left:0.3rem;
+    margin-bottom: 12px;
+    position: relative;
+    top: 7px;
+  }
+  .invoice .lable {
+    color: #000000b9;
+    font-size: 13px;
+  }
+  .invoice .value {
+    font-size: 13px;
+    margin: auto 8px;
+  }
+  .invoice .dateValue {
+    margin: auto 0;
+    font-size: 13px;
+    padding-left: 24px;
+  }
+  .invoice .periodValue {
+    margin: auto 0;
+    font-size: 13px;
+    padding-left: 18px;
+  }
+  .invoice .amount {
+    color: #32c695;
+    font-size: 21px;
+    margin: auto 8px;
+  }
+  .invoice .dueDate {
+    color: #ff0000cc;
+    font-size: 21px;
+    margin: auto 6px;
+  }
+  .invoiceDataTable .header {
+    width: 96%;
+    padding: 0 8px 0 8px;
+    background-color: #44ba934f;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .invoiceDataTable .header p {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex: 1;
+  }
+  .invoiceDataTable .body {
+    width: 100%;
+    border: 1px solid #00000059;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .invoiceDataTable .body p {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex: 1;
+    padding: 0 8px 0 8px;
+  }
+  .invoiceDataTable{
+    position: relative;
+  }
+  .invoiceDataTable .invoiceView{
+    position:absolute;
+    bottom:-16px;
+  }
+  .m-auto{
+    margin:auto;
+  }
+
+  //Custom//
+
+
+//     /* width */
+// ::-webkit-scrollbar {
+//   width: 5px;
+// }
+
+// /* Track */
+// ::-webkit-scrollbar-track {
+//   background: #656a99; 
+// }
+ 
+// /* Handle */
+// ::-webkit-scrollbar-thumb {
+//   background: #888; 
+// }
+
+// /* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//   background: #555; 
+// }
+  
+
+  .custom{
+    height:180px !important;
+    overflow-y: scroll;
+  }
+  .txt-center{
+    text-align: center;
+  }

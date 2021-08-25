@@ -1,0 +1,129 @@
+@import "../../../../themes/generated/variables.base.scss";
+
+
+/* TransactionPage */
+
+.button {
+  font-size: $callout;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: 6px;
+  margin-top: 4px;
+  border-radius: 4px;
+  background-color: $primary;
+  color: $white;
+  width:10rem;
+  border: 1px solid $primary;
+}
+.reset {
+  font-size: $callout;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: 6px;
+  margin-top: 4px;
+  border-radius: 4px;
+  background-color: $info;
+  color: $white;
+  width:8rem;
+  border: 1px solid $info;
+}
+
+.filter {
+    outline: none;
+    font-size: 11px;
+    padding: 4px;
+    margin-right: 24px;
+    margin-top: 4px;
+    border-radius: 4px;
+    //border: 1px solid #808080;
+  }
+#transactionTable {
+    background-color: $white;
+  }
+  .filter {
+    outline: none;
+    font-size: 11px;
+    padding: 4px;
+    margin-right: 24px;
+    margin-top: 4px;
+    border-radius: 4px;
+    //border: 1px solid #808080;
+  }
+  .totalDisputes,
+  .closedDisputes,
+  .openDisputes {
+    flex: 1;
+    margin: 16px 24px 16px 0px;
+  }
+  .lable p {
+    margin: 0;
+    font-size: 15px;
+  }
+  .lable + .val {
+    margin: 0;
+    font-size: 32px;
+  }
+  .dispute {
+    background-color: $white;
+    padding: 20px 12px;
+    margin-bottom: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  .totalDisputes .dispute {
+    border-left: 3px solid $info;
+  }
+  .closedDisputes .dispute {
+    border-left: 3px solid $secondary;
+  }
+  .openDisputes .dispute {
+    border-left: 3px solid $primary;
+  }
+  
+  .val {
+    padding-right: 25%;
+  }
+  .totalDisputes .val {
+    color: $info;
+  }
+  .closedDisputes .val {
+    color: $secondary;
+  }
+  .openDisputes .val {
+    color: $primary;
+  }
+  
+  .sales,
+  .cashbacks {
+    background-color: $white;
+    padding: 8px;
+    border-radius: 4px;
+    flex: 1;
+    margin:0;
+    margin-right: 4px;
+  }
+  .cashbacks{
+    margin-right:0;
+  }
+  .sales .val,
+  .cashbacks .val {
+    font-size: 24px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+  }
+  .msg {
+    color: $info;
+    padding-right: 4px;
+  }
+  .ellipse{
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .form-list{
+    position: relative;
+    left: -1.5rem;
+  }

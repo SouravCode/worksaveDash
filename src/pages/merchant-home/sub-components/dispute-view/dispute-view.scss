@@ -1,0 +1,30 @@
+#notification {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    padding: 8px;
+    background: #fff;
+    height: 7.5rem;
+    margin-top: 0.5rem;
+    border-radius:8px;
+  }
+  .dispute-label{
+font-size:15px;
+margin-top: 8px;
+  }
+  .dispute-val{
+    font-size: 24px;
+    font-weight: 600;
+    //margin: auto;
+    margin-left:3.5rem;
+  }
+  // .message {
+  //   font-size: 13px;
+  //   border-left: 3px solid #ff000093;
+  //   padding-left: 8px;
+  // }
+  // .message > p {
+  //   font-size: 13px;
+  //   margin: auto;
+  // }

@@ -1,0 +1,23 @@
+.product {
+    height: 65px;
+}
+
+.product > img {
+    height: 100%;
+    width: 95px;
+    float: left;
+}
+.merchantBtn{
+    border-radius: 4px;
+    padding: 6px 24px;
+    background-color: #5243aa;
+    color: #fff;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,.24);
+   float: left;
+   width: 50%;
+}
+
+.merchantBtn:hover{
+    background-color: #3b25b6;
+  }

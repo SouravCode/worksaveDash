@@ -1,0 +1,187 @@
+@import "../../../../themes/generated/variables.base.scss";
+
+// .btn {
+//   font-size: 11px;
+//   border-radius: 4PX;
+//   padding: 4px;
+//   background-color: $primary-light!important;
+//   color:$white ;
+//   border: 1px solid $primary-light;
+//   width: 8rem;
+// }
+.woveAmount{
+  font-family: inherit;
+  float: right;
+  font-size: 15px;
+}
+.chip{
+  margin: auto;
+    margin-right: 8px;
+    padding: 3px !important;
+    border-radius: 4px;
+    text-align: center;
+
+    color: $white;
+    background-color: #5243aab4;
+}
+.invoiceStatus > p{ 
+  line-height: 2.0;
+  white-space:nowrap;
+  text-overflow: ellipsis !important;
+  overflow:hidden;
+  display: block;
+}
+
+.left{
+  padding-left: 17px;
+  
+}
+.updateList{
+  position: relative;
+  left: 1.5rem;
+}
+.invoiceBtn{
+  font-size: 11px;
+  border-radius: 20px;
+  padding: 1px;
+  background-color: #655a99;
+  color: white;
+  border: 1px solid #808080;
+  width: 4rem;
+  border-radius: 6rem !important;
+}
+.invoiceBtn:hover{
+  background-color: #827ba3;
+  color: white;
+  text-decoration: underline;
+}
+.ctr{
+    position: relative;
+    left: 1rem;
+}
+.invoicebtn{
+  background-color: #655a99;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  margin: auto;
+  margin-right: 8px;
+  padding: 3px !important;
+  text-align: center;
+  border-radius: 12px;
+}
+a:hover{
+  color: rgb(85, 53, 35);
+  text-decoration: underline rgb(150, 139, 139);
+}
+.right{
+  padding-left: 39px;
+  
+}
+.center{
+  position: relative;
+  left: -3rem;
+}
+
+.cent{
+  position: relative;
+  left: -1rem;
+}
+
+.reset {
+  font-size: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: 6px;
+  margin-top: 4px;
+  border-radius: 4px;
+  background-color: $info;
+  color: white;
+  border: 1px solid $info;
+}
+
+.filter {
+    outline: none;
+    font-size: 9px;
+    padding: 4px;
+    margin-right: 24px;
+    margin-top: 4px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+  }
+  .dueInvoice,
+  .dueDate,
+  .nextInvoice,
+  .defaultMethod {
+    background-color: #ffffff;
+    flex: 1;
+    padding: 8px;
+    margin: 16px;
+    margin-left: 0;
+
+    .lable{
+      font-size:19px !important;
+    }
+  }
+  .dueInvoice {
+    border-left: 3px solid$danger;
+  }
+  .dueDate {
+    border-left: 3px solid $warning;
+  }
+  .nextInvoice {
+    border: 1px solid $info;
+    border-radius: 8px;
+  }
+  .defaultMethod {
+    border: 1px solid #9e579d;
+    border-radius: 8px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .dueInvoice .val,
+  .dueDate .val {
+    font-size: 27px;
+  }
+  .nextInvoice.lable,
+  .nextInvoice .period {
+    font-size: 13px;
+  }
+  .nextInvoice .date span {
+    font-size: 21px;
+  }
+  .nextInvoice .period span {
+    font-size: 16px;
+  }
+  .defaultMethod .account {
+    font-size: 13px;
+    margin: 0;
+  }
+  .defaultMethod .default {
+    font-size: 11px;
+    margin-top: 32px;
+  }
+  .due,
+  .pastDue {
+    color: #ff0000cf;
+    background: #ff000037;
+    text-align: center;
+    padding: 1px;
+    border-radius: 16px;
+    width: 64px;
+  }
+  .paid {
+    color: #44ba93;
+    background: rgba(68, 186, 147, 0.323);
+    text-align: center;
+    padding: 1px;
+    border-radius: 16px;
+    width: 64px;
+  }
+  .form-list{
+    position: relative;
+    left: -1.5rem;
+  }

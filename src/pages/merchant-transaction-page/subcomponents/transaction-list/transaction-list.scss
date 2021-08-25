@@ -1,0 +1,279 @@
+@import "../../../../themes/generated/variables.base.scss";
+
+
+.btn {
+  
+  font-size: 13px;
+  border-radius: 6px;
+  background-color: $primary;
+  color: white;
+  border: 1px solid $primary;
+}
+.align{
+  padding-left: 27px;
+  text-align: left;
+  position: relative;
+  left:-0.8rem;
+}
+.transaparent{
+  outline:none;
+  font-size:inherit;
+  color:$danger;
+  border: 1px solid #4e3e3e;
+  background:none;
+}
+.transAlign{
+  position: relative;
+  left:-0.8rem;
+  margin:auto 0;
+  font-size: 13px;
+  
+}
+.dx-scrollview-content  {
+ .LocationDetails-flex:first-child {
+  //border:5px solid #000;
+  //display: flex;
+ }
+}
+.options {
+  padding-right: 20px;
+  position: relative;
+  bottom: 0;
+  right: 5rem;
+  width: 260rem;
+  top: 0;
+  background-color: rgba(191, 191, 191, 0.15);
+}
+.feedback-msg{
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  width:6rem !important;
+  overflow:hidden;
+  display: block;
+  left:0.5rem;
+}
+.feedback-rating{
+  left: -1.2rem;
+}
+.button,.reset {
+  // font-size: 13px;
+  // padding-right: 20px;
+  // padding-left: 20px;
+  // padding-top: 6px;
+  // padding-bottom: 6px;
+  // margin-left: 6px;
+  // margin-top: 4px;
+  // border-radius: 4px;
+  // background-color: $primary;
+  // color: white;
+  // border: 1px solid #808080;
+  font-size:13px;
+  color:#fff;
+  width:8rem;
+  padding:0.5rem;
+  background-color:$primary;
+  border-radius:6px;
+  outline:none;
+}
+ .reset {
+   color:$white;
+   background-color: $info;
+   border:1px soild $info;
+  
+
+ }
+.button:hover{
+  border:1px solid #656a99;
+  color:white;
+  background-color:rgb(49, 45, 105);
+}
+.reset:hover{
+  background-color:rgb(101, 86, 129);
+  color:white;
+}
+
+.AdressBtn{
+  border-radius: 4px;
+  padding: 6px 24px;
+  background-color: #5243aa;
+  color: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,.24);
+ float: left;
+ width: 100%;
+}
+.AdressBtn:hover{
+  background-color: #3b25b6;
+}
+
+.OfferBtn{
+  border-radius: 4px;
+  padding: 7px 24px;
+  background-color: #5243aa;
+  color: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,.24);
+ float: left;
+ width: 100%;
+ position: relative;
+ top:-0.6rem
+}
+.OfferBtn:hover{
+  background-color: #3b25b6;
+}
+.locationBtn{
+  border-radius: 4px;
+  padding: 6px 24px;
+  background-color: #5243aa;
+  color: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,.24);
+ float: left;
+ width: 100%;
+}
+.dateFormat{
+  position: relative;
+  left:-21rem;
+  top:4.5rem
+}
+.locationBtn:hover{
+  background-color: #3b25b6;
+}
+.raiseBtn{
+  border-radius: 4px;
+  background-color: #5243aa;
+  color: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,.24);
+  position: relative;
+  left:1.5rem;
+}
+
+.checkoutBtn{
+  border-radius: 4px;
+  background-color: #5243aa;
+  float: right;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  padding: 7px;
+  color: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,.24);
+  position: relative;
+  left:1.5rem;
+}
+.checkoutBtn:hover{
+  background-color: #3b25b6;
+}
+.raiseBtn:hover{
+  background-color: #3b25b6;
+}
+.filter {
+    outline: none;
+    font-size: 11px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 24px;
+    margin-top: 4px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+  }
+  .totalTransaction,
+  .settledTransaction,
+  .activeOffer,
+  .authorizedTransaction,
+  .declinedTransaction {
+    flex: 1;
+    margin: 14px 9px 10px 0px;
+   
+  }
+  .transaction-container{
+    height:8.5rem;
+
+  }
+  .my-auto{
+    margin:auto 0 !important;
+  }
+  .label{
+
+  p {
+    margin: 0;
+    font-size: 19px;
+  }
+}
+  .label + .val {
+    margin: 0;
+    font-size: 32px;
+  }
+  .transaction {
+    background-color: $white;
+    padding: 20px 12px;
+    margin-right: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  
+  .totalTransaction .transaction {
+    border-left: 3px solid $info;
+  }
+  .settledTransaction .transaction {
+    border-left: 3px solid $secondary;
+  }
+  .activeOffer .transaction{
+    border-left: 3px solid $primary;
+  }
+  .authorizedTransaction .transaction {
+    border-left: 3px solid $primary;
+    height:8.5rem !important;
+  }
+  .declinedTransaction .transaction {
+    border-left: 3px solid$danger
+  }
+  .val {
+    padding-right: 25%;
+  }
+  .totalTransaction .val {
+    color: $info;
+  }
+  .settledTransaction .val {
+    color: $secondary;
+  }
+  .activeOffer .val{
+    color: $primary;
+  }
+  .authorizedTransaction .val {
+    color: $primary;
+  }
+  .declinedTransaction .val {
+    color:$danger
+  }
+  .sales,
+  .cashbacks {
+    background-color: $white;
+    padding: 8px;
+    border-radius: 8px;
+    flex: 1;
+    margin-top: 0px !important;
+    margin-right: 4px;
+  }
+  .sales .val,
+  .cashbacks .val {
+    font-size: 24px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+  }
+  .ellipse{
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .form-list{
+    position: relative;
+    left: -1.5rem;
+  }
+
+  .transheader{
+    border-left:3px solid $primary;
+    padding-left:8px;
+    padding-bottom:8px;
+    border-bottom:1px solid $primary-light;
+  }
