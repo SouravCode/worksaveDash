@@ -1,6 +1,6 @@
-// export const URI = "https://api-dev.worksave.io/api";
+export const URI = "https://api-dev.worksave.io/api";
 
-export const URI = "http://localhost:7071/api";
+//export const URI = "http://localhost:7071/api";
 
 export const UploadURI = "https://api-dev.worksave.io/api/imageupload";
 export const ImageURI =
